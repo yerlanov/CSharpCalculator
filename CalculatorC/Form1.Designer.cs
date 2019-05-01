@@ -37,7 +37,7 @@
             this.btnsub = new System.Windows.Forms.Button();
             this.btnmul = new System.Windows.Forms.Button();
             this.btn1x = new System.Windows.Forms.Button();
-            this.dtndvd = new System.Windows.Forms.Button();
+            this.btndvd = new System.Windows.Forms.Button();
             this.btndot = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
             this.btn6 = new System.Windows.Forms.Button();
@@ -117,7 +117,7 @@
             this.numpan.Controls.Add(this.btnsub);
             this.numpan.Controls.Add(this.btnmul);
             this.numpan.Controls.Add(this.btn1x);
-            this.numpan.Controls.Add(this.dtndvd);
+            this.numpan.Controls.Add(this.btndvd);
             this.numpan.Controls.Add(this.btndot);
             this.numpan.Controls.Add(this.btn3);
             this.numpan.Controls.Add(this.btn6);
@@ -217,20 +217,20 @@
             this.btn1x.UseVisualStyleBackColor = true;
             this.btn1x.Click += new System.EventHandler(this.btnAdvancedCalc);
             // 
-            // dtndvd
+            // btndvd
             // 
-            this.dtndvd.FlatAppearance.BorderSize = 0;
-            this.dtndvd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.dtndvd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dtndvd.ForeColor = System.Drawing.Color.White;
-            this.dtndvd.Image = global::CalculatorC.Properties.Resources.icons8_divide_filled_30;
-            this.dtndvd.Location = new System.Drawing.Point(181, 61);
-            this.dtndvd.Name = "dtndvd";
-            this.dtndvd.Size = new System.Drawing.Size(50, 43);
-            this.dtndvd.TabIndex = 0;
-            this.dtndvd.TabStop = false;
-            this.dtndvd.UseVisualStyleBackColor = true;
-            this.dtndvd.Click += new System.EventHandler(this.MathOperation);
+            this.btndvd.FlatAppearance.BorderSize = 0;
+            this.btndvd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndvd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btndvd.ForeColor = System.Drawing.Color.White;
+            this.btndvd.Image = global::CalculatorC.Properties.Resources.icons8_divide_filled_30;
+            this.btndvd.Location = new System.Drawing.Point(181, 61);
+            this.btndvd.Name = "btndvd";
+            this.btndvd.Size = new System.Drawing.Size(50, 43);
+            this.btndvd.TabIndex = 0;
+            this.btndvd.TabStop = false;
+            this.btndvd.UseVisualStyleBackColor = true;
+            this.btndvd.Click += new System.EventHandler(this.MathOperation);
             // 
             // btndot
             // 
@@ -708,7 +708,7 @@
         private System.Windows.Forms.Button btnsub;
         private System.Windows.Forms.Button btnmul;
         private System.Windows.Forms.Button btn1x;
-        private System.Windows.Forms.Button dtndvd;
+        private System.Windows.Forms.Button btndvd;
         private System.Windows.Forms.Button btndot;
         private System.Windows.Forms.Button btn3;
         private System.Windows.Forms.Button btn6;
